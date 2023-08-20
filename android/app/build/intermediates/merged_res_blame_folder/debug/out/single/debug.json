@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/drawable_rn_edit_text_material.xml.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/asim/Projects/RN/KrnaHai/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/asim/Projects/RN/KrnaHai/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

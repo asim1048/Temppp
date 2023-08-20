@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "354065025343",
+    "project_id": "fyp2023-432e5",
+    "storage_bucket": "fyp2023-432e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354065025343:android:dea9b2b76e1a9f5226eb8a",
+        "android_client_info": {
+          "package_name": "com.karnahai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354065025343-h64jknibi85r9vbg3g6fumnla10p6sad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW2Ws2_ib6oMQa8fkKsK4diJ8lHxViPAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354065025343-h64jknibi85r9vbg3g6fumnla10p6sad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

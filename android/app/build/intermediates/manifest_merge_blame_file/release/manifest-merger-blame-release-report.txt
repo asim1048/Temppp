@@ -1,0 +1,897 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.karnahai"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:6:5-66
+12-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:6:22-63
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:7:5-68
+13-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:8:5-81
+14-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:10:5-74
+15-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:10:22-72
+16    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+16-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:11:6-72
+16-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:11:23-70
+17    <uses-permission android:name="android.permission.READ_SMS" />
+17-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:12:6-68
+17-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:12:23-65
+18    <uses-permission android:name="android.permission.WRITE_SMS" />
+18-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:13:6-69
+18-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:13:23-66
+19    <uses-permission android:name="android.permission.SEND_SMS" />
+19-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:14:6-67
+19-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:14:23-65
+20    <uses-permission
+20-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:15:6-86
+21        android:name="android.permission.ACCESS_NOTIFICATION_POLICY"
+21-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:15:23-83
+22        android:minSdkVersion="23" />
+22-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:23:9-35
+23    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+23-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:16:6-75
+23-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:16:23-72
+24    <uses-permission android:name="android.permission.READ_CALENDAR" />
+24-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:18:6-72
+24-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:18:23-70
+25    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+25-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:19:1-68
+25-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:19:18-66
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+26-->[:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+27    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+27-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:23:5-77
+27-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:23:22-74
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:22-79
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+29-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+29-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+30    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+30-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:15:5-81
+30-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:15:22-78
+31    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+31-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:16:5-79
+31-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:16:22-76
+32    <uses-permission
+32-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:17:5-19:38
+33        android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+33-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:18:9-73
+34        android:maxSdkVersion="30" />
+34-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:19:9-35
+35    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- for android -->
+35-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:14:5-68
+35-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:14:22-65
+36    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+37    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+38    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+39    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+40    <!-- for Samsung -->
+41    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+41-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+41-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+42    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+42-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+42-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+43    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+43-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+43-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+44    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+44-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+44-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+45    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+45-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+45-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+46    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+46-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+46-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+47    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+47-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+47-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+48    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+48-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+48-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+49    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+49-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+49-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+50    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+50-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+50-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+51    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+51-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+51-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+52    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+52-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+52-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+53    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+53-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+53-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+54    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+54-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+54-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+55    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+55-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+55-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+56    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+56-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+56-->[me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+57
+58    <application
+58-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:21:5-65:19
+59        android:name="com.karnahai.MainApplication"
+59-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:22:7-38
+60        android:allowBackup="true"
+60-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:25:7-33
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.7.0] /home/asim/.gradle/caches/transforms-3/2b3b33053e067dded22f3c61e3b2147e/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+62        android:icon="@mipmap/ic_launcher"
+62-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:24:7-41
+63        android:label="@string/app_name"
+63-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:23:7-39
+64        android:supportsRtl="true"
+64-->[:react-native-call-detection] /home/asim/Projects/RN/RTNM/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-35
+65        android:theme="@style/AppTheme" >
+65-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:26:7-38
+66        <activity
+66-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:27:7-38:18
+67            android:name="com.karnahai.MainActivity"
+67-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:28:9-37
+68            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+68-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:30:9-118
+69            android:exported="true"
+69-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:33:9-32
+70            android:label="@string/app_name"
+70-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:29:9-41
+71            android:launchMode="singleTask"
+71-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:31:9-40
+72            android:windowSoftInputMode="adjustResize" >
+72-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:32:9-51
+73            <intent-filter>
+73-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:34:9-37:25
+74                <action android:name="android.intent.action.MAIN" />
+74-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:35:13-65
+74-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:35:21-62
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:36:13-73
+76-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:36:23-70
+77            </intent-filter>
+78        </activity>
+79
+80        <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
+81        <meta-data
+81-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:41:9-42:44
+82            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+82-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:41:21-97
+83            android:value="false" />
+83-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:42:21-42
+84        <!-- Change the resource name to your App's accent color - or any other color you want -->
+85        <meta-data
+85-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:44:9-45:54
+86            android:name="com.dieam.reactnativepushnotification.notification_color"
+86-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:44:21-92
+87            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+87-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:45:21-52
+88
+89        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+89-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:47:9-108
+89-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:47:19-105
+90        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+90-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:48:9-110
+90-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:48:19-107
+91        <receiver
+91-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:49:9-55:20
+92            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+92-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:49:45-141
+93            android:exported="false" >
+93-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:49:20-44
+94            <intent-filter>
+94-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:50:13-54:29
+95                <action android:name="android.intent.action.BOOT_COMPLETED" />
+95-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:17-79
+95-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:25-76
+96                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+96-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:52:17-82
+96-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:52:25-79
+97                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+97-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:53:17-81
+97-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:53:25-79
+98            </intent-filter>
+99        </receiver>
+100
+101        <service
+101-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:57:9-63:19
+102            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+102-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:58:13-107
+103            android:exported="false" >
+103-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:59:13-37
+104            <intent-filter>
+104-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:60:13-62:29
+105                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+105-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:61:17-78
+105-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:61:25-75
+106            </intent-filter>
+107        </service>
+108
+109        <provider
+109-->[:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:40
+110            android:name="io.invertase.notifee.NotifeeInitProvider"
+110-->[:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-68
+111            android:authorities="com.karnahai.notifee-init-provider"
+111-->[:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-73
+112            android:exported="false"
+112-->[:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+113            android:initOrder="-100" />
+113-->[:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+114
+115        <service
+115-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+116            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+116-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
+117            android:exported="false" />
+117-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+118        <service
+118-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
+119            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+119-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
+120            android:exported="false" >
+120-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+121            <intent-filter>
+121-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:60:13-62:29
+122                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+122-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:61:17-78
+122-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:61:25-75
+123            </intent-filter>
+124        </service>
+125
+126        <receiver
+126-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
+127            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+127-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
+128            android:exported="true"
+128-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+129            android:permission="com.google.android.c2dm.permission.SEND" >
+129-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
+130            <intent-filter>
+130-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+131                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+131-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+131-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+132            </intent-filter>
+133        </receiver>
+134
+135        <meta-data
+135-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
+136            android:name="firebase_messaging_auto_init_enabled"
+136-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
+137            android:value="true" />
+137-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
+138        <meta-data
+138-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-39:32
+139            android:name="com.google.firebase.messaging.default_notification_channel_id"
+139-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-89
+140            android:value="" />
+140-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-29
+141        <meta-data
+141-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+142            android:name="com.google.firebase.messaging.default_notification_color"
+142-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
+143            android:resource="@color/white" />
+143-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
+144        <meta-data
+144-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+145            android:name="app_data_collection_default_enabled"
+145-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+146            android:value="true" />
+146-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+147
+148        <service
+148-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+149            android:name="com.google.firebase.components.ComponentDiscoveryService"
+149-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+150            android:directBootAware="true"
+150-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+151            android:exported="false" >
+151-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+152            <meta-data
+152-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+153                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+153-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:69:13-71:85
+156                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+156-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:70:17-109
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:71:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
+159                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+159-->[com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:53:13-55:85
+162                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+162-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:54:17-119
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:55:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+165                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+165-->[com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:15:13-17:85
+168                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+168-->[com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:16:17-127
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:17:17-82
+170        </service>
+171
+172        <provider
+172-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+173            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+173-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+174            android:authorities="com.karnahai.reactnativefirebaseappinitprovider"
+174-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+175            android:exported="false"
+175-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+176            android:initOrder="99" />
+176-->[:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+177
+178        <activity
+178-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:29:9-46:20
+179            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+179-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:30:13-80
+180            android:excludeFromRecents="true"
+180-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:31:13-46
+181            android:exported="true"
+181-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:32:13-36
+182            android:launchMode="singleTask"
+182-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:33:13-44
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+183-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:34:13-72
+184            <intent-filter>
+184-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:35:13-45:29
+185                <action android:name="android.intent.action.VIEW" />
+185-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:17-69
+185-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:25-66
+186
+187                <category android:name="android.intent.category.DEFAULT" />
+187-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+187-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+188                <category android:name="android.intent.category.BROWSABLE" />
+188-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+188-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+189
+190                <data
+190-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:41:17-44:51
+191                    android:host="firebase.auth"
+191-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:42:21-49
+192                    android:path="/"
+192-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:43:21-37
+193                    android:scheme="genericidp" />
+193-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:44:21-48
+194            </intent-filter>
+195        </activity>
+196        <activity
+196-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:47:9-64:20
+197            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+197-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:48:13-79
+198            android:excludeFromRecents="true"
+198-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:49:13-46
+199            android:exported="true"
+199-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:50:13-36
+200            android:launchMode="singleTask"
+200-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:51:13-44
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+201-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:52:13-72
+202            <intent-filter>
+202-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:53:13-63:29
+203                <action android:name="android.intent.action.VIEW" />
+203-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:17-69
+203-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:25-66
+204
+205                <category android:name="android.intent.category.DEFAULT" />
+205-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+205-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+206                <category android:name="android.intent.category.BROWSABLE" />
+206-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+206-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+207
+208                <data
+208-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:41:17-44:51
+209                    android:host="firebase.auth"
+209-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:42:21-49
+210                    android:path="/"
+210-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:43:21-37
+211                    android:scheme="recaptcha" />
+211-->[com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:44:21-48
+212            </intent-filter>
+213        </activity>
+214
+215        <receiver
+215-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:29:9-36:20
+216            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+216-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:30:13-78
+217            android:exported="true"
+217-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:31:13-36
+218            android:permission="com.google.android.c2dm.permission.SEND" >
+218-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:32:13-73
+219            <intent-filter>
+219-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+220                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+220-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+220-->[:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+221            </intent-filter>
+222        </receiver>
+223        <!--
+224             FirebaseMessagingService performs security checks at runtime,
+225             but set to not exported to explicitly avoid allowing another app to call it.
+226        -->
+227        <service
+227-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:42:9-49:19
+228            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+228-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:43:13-82
+229            android:directBootAware="true"
+229-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:44:13-43
+230            android:exported="false" >
+230-->[com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:45:13-37
+231            <intent-filter android:priority="-500" >
+231-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:60:13-62:29
+232                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+232-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:61:17-78
+232-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:61:25-75
+233            </intent-filter>
+234        </service>
+235
+236        <provider
+236-->[com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+237            android:name="com.google.firebase.provider.FirebaseInitProvider"
+237-->[com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+238            android:authorities="com.karnahai.firebaseinitprovider"
+238-->[com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+239            android:directBootAware="true"
+239-->[com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+240            android:exported="false"
+240-->[com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+241            android:initOrder="100" />
+241-->[com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+242
+243        <service
+243-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+244            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+244-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+245            android:exported="false" >
+245-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+246            <meta-data
+246-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+247                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+247-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+248                android:value="cct" />
+248-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+249        </service>
+250        <service
+250-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+251            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+251-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+252            android:exported="false"
+252-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+253            android:permission="android.permission.BIND_JOB_SERVICE" >
+253-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+254        </service>
+255
+256        <receiver
+256-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+257            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+257-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+258            android:exported="false" />
+258-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+259
+260        <provider
+260-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+261            android:name="androidx.startup.InitializationProvider"
+261-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+262            android:authorities="com.karnahai.androidx-startup"
+262-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+263            android:exported="false" >
+263-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+264            <meta-data
+264-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+265                android:name="androidx.work.WorkManagerInitializer"
+265-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+266                android:value="androidx.startup" />
+266-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+267            <meta-data
+267-->[androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+268                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+268-->[androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+269                android:value="androidx.startup" />
+269-->[androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+270            <meta-data
+270-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+271                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+271-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+272                android:value="androidx.startup" />
+272-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+273        </provider>
+274
+275        <service
+275-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+276            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+276-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+277            android:directBootAware="false"
+277-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+278            android:enabled="@bool/enable_system_alarm_service_default"
+278-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+279            android:exported="false" />
+279-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+280        <service
+280-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+281            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+281-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+282            android:directBootAware="false"
+282-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+283            android:enabled="@bool/enable_system_job_service_default"
+283-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+284            android:exported="true"
+284-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+285            android:permission="android.permission.BIND_JOB_SERVICE" />
+285-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+286        <service
+286-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+287            android:name="androidx.work.impl.foreground.SystemForegroundService"
+287-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+288            android:directBootAware="false"
+288-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+289            android:enabled="@bool/enable_system_foreground_service_default"
+289-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+290            android:exported="false" />
+290-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+291
+292        <receiver
+292-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+293            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+293-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+294            android:directBootAware="false"
+294-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+295            android:enabled="true"
+295-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+296            android:exported="false" />
+296-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+297        <receiver
+297-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+298            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+298-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+299            android:directBootAware="false"
+299-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+300            android:enabled="false"
+300-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+301            android:exported="false" >
+301-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+302            <intent-filter>
+302-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+303                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+303-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+303-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+304                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+304-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+304-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+305            </intent-filter>
+306        </receiver>
+307        <receiver
+307-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+308            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+308-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+309            android:directBootAware="false"
+309-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+310            android:enabled="false"
+310-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+311            android:exported="false" >
+311-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+312            <intent-filter>
+312-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+313                <action android:name="android.intent.action.BATTERY_OKAY" />
+313-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+313-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+314                <action android:name="android.intent.action.BATTERY_LOW" />
+314-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+314-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+315            </intent-filter>
+316        </receiver>
+317        <receiver
+317-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+318            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+318-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+319            android:directBootAware="false"
+319-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+320            android:enabled="false"
+320-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+321            android:exported="false" >
+321-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+322            <intent-filter>
+322-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+323                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+323-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+323-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+324                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+324-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+324-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+325            </intent-filter>
+326        </receiver>
+327        <receiver
+327-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+328            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+328-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+329            android:directBootAware="false"
+329-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+330            android:enabled="false"
+330-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+331            android:exported="false" >
+331-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+332            <intent-filter>
+332-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+333                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+333-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+333-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+334            </intent-filter>
+335        </receiver>
+336        <receiver
+336-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+337            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+337-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+338            android:directBootAware="false"
+338-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+339            android:enabled="false"
+339-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+340            android:exported="false" >
+340-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+341            <intent-filter>
+341-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+342                <action android:name="android.intent.action.BOOT_COMPLETED" />
+342-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:17-79
+342-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:25-76
+343                <action android:name="android.intent.action.TIME_SET" />
+343-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+343-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+344                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+344-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+344-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+345            </intent-filter>
+346        </receiver>
+347        <receiver
+347-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+348            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+348-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+349            android:directBootAware="false"
+349-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+350            android:enabled="@bool/enable_system_alarm_service_default"
+350-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+351            android:exported="false" >
+351-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+352            <intent-filter>
+352-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+353                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+353-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+353-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+354            </intent-filter>
+355        </receiver>
+356        <receiver
+356-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+357            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+357-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+358            android:directBootAware="false"
+358-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+359            android:enabled="true"
+359-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+360            android:exported="true"
+360-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+361            android:permission="android.permission.DUMP" >
+361-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+362            <intent-filter>
+362-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+363                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+363-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+363-->[androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+364            </intent-filter>
+365        </receiver>
+366
+367        <activity
+367-->[com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+368            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+368-->[com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+369            android:excludeFromRecents="true"
+369-->[com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+370            android:exported="false"
+370-->[com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+371            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+371-->[com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+372        <!--
+373            Service handling Google Sign-In user revocation. For apps that do not integrate with
+374            Google Sign-In, this service will never be started.
+375        -->
+376        <service
+376-->[com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+377            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+377-->[com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+378            android:exported="true"
+378-->[com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+379            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+379-->[com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+380            android:visibleToInstantApps="true" />
+380-->[com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+381
+382        <activity
+382-->[com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+383            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+383-->[com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+384            android:exported="false"
+384-->[com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+385            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+385-->[com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+386
+387        <meta-data
+387-->[com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+388            android:name="com.google.android.gms.version"
+388-->[com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+389            android:value="@integer/google_play_services_version" />
+389-->[com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+390
+391        <service
+391-->[androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+392            android:name="androidx.room.MultiInstanceInvalidationService"
+392-->[androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+393            android:directBootAware="true"
+393-->[androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+394            android:exported="false" /> <!-- Receiver Service -->
+394-->[androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+395        <service
+395-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:28:9-30:40
+396            android:name="app.notifee.core.ReceiverService"
+396-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:29:13-60
+397            android:exported="false" />
+397-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:30:13-37
+398
+399        <activity
+399-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:32:9-38:75
+400            android:name="app.notifee.core.NotificationReceiverActivity"
+400-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:33:13-73
+401            android:excludeFromRecents="true"
+401-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:34:13-46
+402            android:exported="true"
+402-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:35:13-36
+403            android:noHistory="true"
+403-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:36:13-37
+404            android:taskAffinity=""
+404-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:37:13-36
+405            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Foreground Service -->
+405-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:38:13-72
+406        <service
+406-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:41:9-43:40
+407            android:name="app.notifee.core.ForegroundService"
+407-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:42:13-62
+408            android:exported="false" />
+408-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:43:13-37
+409
+410        <receiver
+410-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:45:9-53:20
+411            android:name="app.notifee.core.RebootBroadcastReceiver"
+411-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:46:13-68
+412            android:exported="false" >
+412-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:47:13-37
+413            <intent-filter>
+413-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:50:13-54:29
+414                <action android:name="android.intent.action.BOOT_COMPLETED" />
+414-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:17-79
+414-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:25-76
+415                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+415-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:52:17-82
+415-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:52:25-79
+416                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+416-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:53:17-81
+416-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:53:25-79
+417            </intent-filter>
+418        </receiver>
+419        <receiver
+419-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:54:9-60:20
+420            android:name="app.notifee.core.AlarmPermissionBroadcastReceiver"
+420-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:55:13-77
+421            android:exported="true" >
+421-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:56:13-36
+422            <intent-filter>
+422-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:57:13-59:29
+423                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+423-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:58:17-107
+423-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:58:25-104
+424            </intent-filter>
+425        </receiver>
+426        <receiver
+426-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:61:9-69:20
+427            android:name="app.notifee.core.NotificationAlarmReceiver"
+427-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:62:13-70
+428            android:exported="false" >
+428-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:63:13-37
+429            <intent-filter>
+429-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:50:13-54:29
+430                <action android:name="android.intent.action.BOOT_COMPLETED" />
+430-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:17-79
+430-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:25-76
+431                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+431-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:52:17-82
+431-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:52:25-79
+432                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+432-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:53:17-81
+432-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:53:25-79
+433            </intent-filter>
+434        </receiver> <!-- Broadcast Receiver -->
+435        <receiver
+435-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:72:9-80:20
+436            android:name="app.notifee.core.BlockStateBroadcastReceiver"
+436-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:73:13-72
+437            android:exported="false" >
+437-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:74:13-37
+438            <intent-filter>
+438-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:75:13-79:29
+439                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED" />
+439-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:76:17-85
+439-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:76:25-82
+440                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED" />
+440-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:77:17-102
+440-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:77:25-99
+441                <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED" />
+441-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:78:17-108
+441-->[app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:78:25-105
+442            </intent-filter>
+443        </receiver>
+444        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
+444-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:17:9-92
+444-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:17:19-89
+445
+446        <service
+446-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:19:9-22:72
+447            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+447-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:20:13-80
+448            android:exported="true"
+448-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:21:13-36
+449            android:permission="android.permission.BIND_JOB_SERVICE" />
+449-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:22:13-69
+450
+451        <receiver
+451-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:24:9-31:20
+452            android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver"
+452-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:25:13-77
+453            android:exported="false" >
+453-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:26:13-37
+454            <intent-filter>
+454-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:27:13-30:29
+455                <action android:name="android.intent.action.BOOT_COMPLETED" />
+455-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:17-79
+455-->/home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:25-76
+456                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+456-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:29:17-84
+456-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:29:25-81
+457            </intent-filter>
+458        </receiver>
+459    </application>
+460
+461</manifest>

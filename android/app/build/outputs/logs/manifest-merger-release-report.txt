@@ -1,0 +1,1377 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:1:1-66:12
+MERGED from [:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:react-native-async-storage_async-storage] /home/asim/Projects/RN/RTNM/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /home/asim/Projects/RN/RTNM/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_masked-view] /home/asim/Projects/RN/RTNM/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_firestore] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-32:12
+MERGED from [:react-native-background-fetch] /home/asim/Projects/RN/RTNM/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-call-detection] /home/asim/Projects/RN/RTNM/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
+MERGED from [:react-native-gesture-handler] /home/asim/Projects/RN/RTNM/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-push-notification] /home/asim/Projects/RN/RTNM/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-ringer-mode] /home/asim/Projects/RN/RTNM/node_modules/react-native-ringer-mode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /home/asim/Projects/RN/RTNM/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/asim/Projects/RN/RTNM/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-svg] /home/asim/Projects/RN/RTNM/node_modules/react-native-svg/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-touch-id] /home/asim/Projects/RN/RTNM/node_modules/react-native-touch-id/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.69.2] /home/asim/.gradle/caches/transforms-3/36a3a565793d9152a7db2c58194e7675/transformed/jetified-react-native-0.69.2-release/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/asim/.gradle/caches/transforms-3/f3c3186324ccaeb92da8b9ca202ac186/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r250230] /home/asim/.gradle/caches/transforms-3/a41d509d7716971b18155ceb97053b74/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-get-sms-android] /home/asim/Projects/RN/RTNM/node_modules/react-native-get-sms-android/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /home/asim/Projects/RN/RTNM/node_modules/react-native-reanimated/android/build/.transforms/54b5e85f2431345d2526206ae57dca6c/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.5.0] /home/asim/.gradle/caches/transforms-3/77d2d26c497c75a3d070c48c8bcc3a11/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/asim/.gradle/caches/transforms-3/ca02ecf7773da1c6683b26f497a853fb/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.5.0] /home/asim/.gradle/caches/transforms-3/871234b7f134ead91c33969cc918ea9b/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /home/asim/.gradle/caches/transforms-3/a746a598190add4e26e20b50e6063e62/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /home/asim/.gradle/caches/transforms-3/bc937d3f8204920a9221ce9c64c4c331/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /home/asim/.gradle/caches/transforms-3/4963af96010e68d731b683e0ea0081e5/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /home/asim/.gradle/caches/transforms-3/8426af837eac3a36ff081b96fd29b654/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /home/asim/.gradle/caches/transforms-3/40a49d80d81de112edd91da58481783f/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /home/asim/.gradle/caches/transforms-3/7ecf3f232dc56fe1384940cef7e7936e/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /home/asim/.gradle/caches/transforms-3/1df9ad1387e8cec4ff4e69af007896d7/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /home/asim/.gradle/caches/transforms-3/8941cfe7e4022b40b72a8091ecf69933/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/asim/.gradle/caches/transforms-3/07499b6d9286c38afba43f10d09fb530/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/asim/.gradle/caches/transforms-3/054c5fdc6e2d58fc9ae97797a450883e/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /home/asim/.gradle/caches/transforms-3/d934a9f160130ae43e0a46a1b14855d4/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/asim/.gradle/caches/transforms-3/2bd7af87b814d990bfa32caf0aee8b8b/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.material:material:1.1.0] /home/asim/.gradle/caches/transforms-3/5062f4860f2607535a807f0d8b556178/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/asim/.gradle/caches/transforms-3/3137866ad43cfc3d891662c8269097cf/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/asim/.gradle/caches/transforms-3/18fded6a177d71099ca1ba485ac10470/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /home/asim/.gradle/caches/transforms-3/dfc77ad6f3ee9d7f9d8ea64132b0df23/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.5.0] /home/asim/.gradle/caches/transforms-3/10939bcce6b0a4f0265288f7f3012081/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /home/asim/.gradle/caches/transforms-3/aeeaeaa350145a9791347c7e7a88605f/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.5.0] /home/asim/.gradle/caches/transforms-3/d87412d636d363a7de7f15ba4bafa8d2/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.3] /home/asim/.gradle/caches/transforms-3/97e406dd4819087f70d01fc4f5b616ce/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:2:1-13:12
+MERGED from [io.grpc:grpc-android:1.52.1] /home/asim/.gradle/caches/transforms-3/6280de070808c68a59ad770a2a1417b6/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/asim/.gradle/caches/transforms-3/a32c1fc13a51d359772267462721ee0f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/asim/.gradle/caches/transforms-3/f33800bfec54cfaf20f6bf1645ebdb50/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /home/asim/.gradle/caches/transforms-3/e6607ff9828f2f8a08f6e8f374e00102/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/asim/.gradle/caches/transforms-3/afb138624ad9b695d807153d9dfadea8/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.core:core-ktx:1.6.0] /home/asim/.gradle/caches/transforms-3/3490fb59ba9bf6da1169e6d6c0c84ca6/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/asim/.gradle/caches/transforms-3/00b121a5f814e7040267f329826c39a9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/asim/.gradle/caches/transforms-3/ce23548cc648acc680626e4d38b398c3/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/asim/.gradle/caches/transforms-3/666eaae6acb53fde5a4c47415e5b51c8/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/asim/.gradle/caches/transforms-3/a58e9c7f53b5bc44eda7045309388a92/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/asim/.gradle/caches/transforms-3/de4fb1e181045f108d4970721632cd73/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/asim/.gradle/caches/transforms-3/7c5d45066718b51403853444c94b3efd/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.play:integrity:1.1.0] /home/asim/.gradle/caches/transforms-3/1a0988c713759d16002ab5bf2f1a82f3/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/asim/.gradle/caches/transforms-3/00f223b27454529c9ccfef21b1ded96e/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/asim/.gradle/caches/transforms-3/7672504ec906d56e4c689bc3605f03fe/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/asim/.gradle/caches/transforms-3/a03fb428fc33afcffe627e6deaa2dcd2/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/asim/.gradle/caches/transforms-3/87318c38e05402103def2e2529638420/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/asim/.gradle/caches/transforms-3/11af21639d36eb6799ed8eae803a6502/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/asim/.gradle/caches/transforms-3/7249062f93df45e5b41c20eb2e69ab4f/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/asim/.gradle/caches/transforms-3/1ad0bb256b92606a5adf0c74da1f859f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/asim/.gradle/caches/transforms-3/124fd96c61075ad892416c3890849139/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/asim/.gradle/caches/transforms-3/8c1a0c3d5e826f888f96756922eac21e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/asim/.gradle/caches/transforms-3/af9d61ae13d8877fc7ef6cd45abe76b0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/asim/.gradle/caches/transforms-3/64dd33318eddeee89173fe185b655967/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/asim/.gradle/caches/transforms-3/3e64603ef1cb867ba3a01861cad187f1/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/asim/.gradle/caches/transforms-3/32cf29000a5c7eaa845a147c45c455ae/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/asim/.gradle/caches/transforms-3/8d6a7c1e4bffad4c354faa32fa9946ee/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/asim/.gradle/caches/transforms-3/b4c91a60ec042c9595ce703f3a3e23f4/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /home/asim/.gradle/caches/transforms-3/2b3b33053e067dded22f3c61e3b2147e/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/asim/.gradle/caches/transforms-3/ce532da4c2fbcf09ce631856c0599bdd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/asim/.gradle/caches/transforms-3/6933939f0d226e757f12fd752ce6839d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/asim/.gradle/caches/transforms-3/9b846d337194ededc73cb59b66e34d91/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/asim/.gradle/caches/transforms-3/a3e34088cfd6af51f143774a21abd48f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/asim/.gradle/caches/transforms-3/f01b1dd545f1590cf395301e7800881f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/asim/.gradle/caches/transforms-3/e6d43ec0df1a2bf8f7cda0aa60361f2f/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/asim/.gradle/caches/transforms-3/abe15bb95e3e6756904ff9041b2055ee/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/asim/.gradle/caches/transforms-3/9a4b6def60be59bd831ba5208e045fc1/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/asim/.gradle/caches/transforms-3/3dcacd1cc0c4e618c73abd34825c9033/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/asim/.gradle/caches/transforms-3/fbb247b0fa851701e53c882ea86a047d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/asim/.gradle/caches/transforms-3/41e9bfe7e7f25432c57692daf8491161/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/asim/.gradle/caches/transforms-3/c0530b6a978df42721fc36fa043e7cd3/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/asim/.gradle/caches/transforms-3/1f20c199f33b07e3255e79462b34eecf/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/asim/.gradle/caches/transforms-3/424152f0b5f5c399ba1a3b32aa7291c1/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/asim/.gradle/caches/transforms-3/bb4c3118ddd7c64a0627dd29d4ddd9a9/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/asim/.gradle/caches/transforms-3/b77aaf0ffc0c5570a91fcd85d52ae59b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/asim/.gradle/caches/transforms-3/d2e750b2ab93118ada46bda1f0a11844/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/asim/.gradle/caches/transforms-3/8c44c7a38a02ee47ba3e9e72ae5fe55a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/asim/.gradle/caches/transforms-3/50b04ef26dd0e579d1d48906930bec59/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/asim/.gradle/caches/transforms-3/d4c7b69a8f372b0f7d5760c69537d7a3/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:2:1-83:12
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:2:1-34:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/asim/.gradle/caches/transforms-3/cda654eb02b4ede5c58fceb7a9f19064/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/asim/.gradle/caches/transforms-3/fe5e4ed0a803a5102fbf20525c6b6e96/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/asim/.gradle/caches/transforms-3/4736e79db6250e239148918e41e8da56/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:1:1-66:12
+	package
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:2:3-25
+		INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:1:1-66:12
+		INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:1:1-66:12
+		INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/asim/.gradle/caches/transforms-3/a32c1fc13a51d359772267462721ee0f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/asim/.gradle/caches/transforms-3/a32c1fc13a51d359772267462721ee0f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:13:5-67
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:12:5-66
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:6:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:7:5-68
+MERGED from [:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:24:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:9:5-68
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:9:5-68
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:12:5-68
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:8:5-81
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:11:5-81
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:11:5-81
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:11:5-81
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:10:5-74
+MERGED from [:react-native-call-detection] /home/asim/Projects/RN/RTNM/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-75
+MERGED from [:react-native-call-detection] /home/asim/Projects/RN/RTNM/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:11:6-72
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:11:23-70
+uses-permission#android.permission.READ_SMS
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:12:6-68
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:12:23-65
+uses-permission#android.permission.WRITE_SMS
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:13:6-69
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:13:23-66
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:14:6-67
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:14:23-65
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:15:6-86
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:21:5-23:38
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:21:5-23:38
+	android:minSdkVersion
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:23:9-35
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:15:23-83
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:16:6-75
+MERGED from [:react-native-touch-id] /home/asim/Projects/RN/RTNM/node_modules/react-native-touch-id/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-74
+MERGED from [:react-native-touch-id] /home/asim/Projects/RN/RTNM/node_modules/react-native-touch-id/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:16:23-72
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:18:6-72
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:18:23-70
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:19:1-68
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:19:18-66
+application
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:21:5-65:19
+MERGED from [:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:react-native-community_datetimepicker] /home/asim/Projects/RN/RTNM/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [:react-native-community_datetimepicker] /home/asim/Projects/RN/RTNM/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-background-fetch] /home/asim/Projects/RN/RTNM/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:react-native-background-fetch] /home/asim/Projects/RN/RTNM/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:react-native-call-detection] /home/asim/Projects/RN/RTNM/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-14:38
+MERGED from [:react-native-call-detection] /home/asim/Projects/RN/RTNM/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-14:38
+MERGED from [com.facebook.react:react-native:0.69.2] /home/asim/.gradle/caches/transforms-3/36a3a565793d9152a7db2c58194e7675/transformed/jetified-react-native-0.69.2-release/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.69.2] /home/asim/.gradle/caches/transforms-3/36a3a565793d9152a7db2c58194e7675/transformed/jetified-react-native-0.69.2-release/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/asim/.gradle/caches/transforms-3/07499b6d9286c38afba43f10d09fb530/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/asim/.gradle/caches/transforms-3/07499b6d9286c38afba43f10d09fb530/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/asim/.gradle/caches/transforms-3/2bd7af87b814d990bfa32caf0aee8b8b/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/asim/.gradle/caches/transforms-3/2bd7af87b814d990bfa32caf0aee8b8b/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.material:material:1.1.0] /home/asim/.gradle/caches/transforms-3/5062f4860f2607535a807f0d8b556178/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/asim/.gradle/caches/transforms-3/5062f4860f2607535a807f0d8b556178/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /home/asim/.gradle/caches/transforms-3/97e406dd4819087f70d01fc4f5b616ce/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /home/asim/.gradle/caches/transforms-3/97e406dd4819087f70d01fc4f5b616ce/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/asim/.gradle/caches/transforms-3/a58e9c7f53b5bc44eda7045309388a92/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/asim/.gradle/caches/transforms-3/a58e9c7f53b5bc44eda7045309388a92/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/asim/.gradle/caches/transforms-3/de4fb1e181045f108d4970721632cd73/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/asim/.gradle/caches/transforms-3/de4fb1e181045f108d4970721632cd73/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.1.0] /home/asim/.gradle/caches/transforms-3/1a0988c713759d16002ab5bf2f1a82f3/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /home/asim/.gradle/caches/transforms-3/1a0988c713759d16002ab5bf2f1a82f3/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/asim/.gradle/caches/transforms-3/00f223b27454529c9ccfef21b1ded96e/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/asim/.gradle/caches/transforms-3/00f223b27454529c9ccfef21b1ded96e/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/asim/.gradle/caches/transforms-3/7672504ec906d56e4c689bc3605f03fe/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/asim/.gradle/caches/transforms-3/7672504ec906d56e4c689bc3605f03fe/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/asim/.gradle/caches/transforms-3/a03fb428fc33afcffe627e6deaa2dcd2/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/asim/.gradle/caches/transforms-3/a03fb428fc33afcffe627e6deaa2dcd2/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /home/asim/.gradle/caches/transforms-3/2b3b33053e067dded22f3c61e3b2147e/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/asim/.gradle/caches/transforms-3/2b3b33053e067dded22f3c61e3b2147e/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/asim/.gradle/caches/transforms-3/f01b1dd545f1590cf395301e7800881f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/asim/.gradle/caches/transforms-3/f01b1dd545f1590cf395301e7800881f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/asim/.gradle/caches/transforms-3/3dcacd1cc0c4e618c73abd34825c9033/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/asim/.gradle/caches/transforms-3/3dcacd1cc0c4e618c73abd34825c9033/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:25:5-81:19
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:25:5-81:19
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:16:5-32:19
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:16:5-32:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /home/asim/.gradle/caches/transforms-3/2b3b33053e067dded22f3c61e3b2147e/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [:react-native-call-detection] /home/asim/Projects/RN/RTNM/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:23:7-39
+	android:icon
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:24:7-41
+	android:allowBackup
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:25:7-33
+	android:theme
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:26:7-38
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:22:7-38
+activity#com.karnahai.MainActivity
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:27:7-38:18
+	android:label
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:29:9-41
+	android:launchMode
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:31:9-40
+	android:windowSoftInputMode
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:32:9-51
+	android:exported
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:33:9-32
+	android:configChanges
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:30:9-118
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:28:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:34:9-37:25
+action#android.intent.action.MAIN
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:35:13-65
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:35:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:36:13-73
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:36:23-70
+meta-data#com.dieam.reactnativepushnotification.notification_foreground
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:41:9-42:44
+	android:value
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:42:21-42
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:41:21-97
+meta-data#com.dieam.reactnativepushnotification.notification_color
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:44:9-45:54
+	android:resource
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:45:21-52
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:44:21-92
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationActions
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:47:9-108
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:47:19-105
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:48:9-110
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:48:19-107
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:49:9-55:20
+	android:exported
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:49:20-44
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:49:45-141
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:50:13-54:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:17-79
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:51:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:52:17-82
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:52:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:53:17-81
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:53:25-79
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:57:9-63:19
+	android:exported
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:58:13-107
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:60:13-62:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:61:17-78
+	android:name
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml:61:25-75
+uses-sdk
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+MERGED from [:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /home/asim/Projects/RN/RTNM/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /home/asim/Projects/RN/RTNM/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /home/asim/Projects/RN/RTNM/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /home/asim/Projects/RN/RTNM/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /home/asim/Projects/RN/RTNM/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /home/asim/Projects/RN/RTNM/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-background-fetch] /home/asim/Projects/RN/RTNM/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-background-fetch] /home/asim/Projects/RN/RTNM/node_modules/react-native-background-fetch/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-call-detection] /home/asim/Projects/RN/RTNM/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-call-detection] /home/asim/Projects/RN/RTNM/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/asim/Projects/RN/RTNM/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/asim/Projects/RN/RTNM/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /home/asim/Projects/RN/RTNM/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /home/asim/Projects/RN/RTNM/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-ringer-mode] /home/asim/Projects/RN/RTNM/node_modules/react-native-ringer-mode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-ringer-mode] /home/asim/Projects/RN/RTNM/node_modules/react-native-ringer-mode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/asim/Projects/RN/RTNM/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/asim/Projects/RN/RTNM/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/asim/Projects/RN/RTNM/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/asim/Projects/RN/RTNM/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /home/asim/Projects/RN/RTNM/node_modules/react-native-svg/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /home/asim/Projects/RN/RTNM/node_modules/react-native-svg/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-touch-id] /home/asim/Projects/RN/RTNM/node_modules/react-native-touch-id/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-touch-id] /home/asim/Projects/RN/RTNM/node_modules/react-native-touch-id/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.69.2] /home/asim/.gradle/caches/transforms-3/36a3a565793d9152a7db2c58194e7675/transformed/jetified-react-native-0.69.2-release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.69.2] /home/asim/.gradle/caches/transforms-3/36a3a565793d9152a7db2c58194e7675/transformed/jetified-react-native-0.69.2-release/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/asim/.gradle/caches/transforms-3/f3c3186324ccaeb92da8b9ca202ac186/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/asim/.gradle/caches/transforms-3/f3c3186324ccaeb92da8b9ca202ac186/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r250230] /home/asim/.gradle/caches/transforms-3/a41d509d7716971b18155ceb97053b74/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /home/asim/.gradle/caches/transforms-3/a41d509d7716971b18155ceb97053b74/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-get-sms-android] /home/asim/Projects/RN/RTNM/node_modules/react-native-get-sms-android/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-sms-android] /home/asim/Projects/RN/RTNM/node_modules/react-native-get-sms-android/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /home/asim/Projects/RN/RTNM/node_modules/react-native-reanimated/android/build/.transforms/54b5e85f2431345d2526206ae57dca6c/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /home/asim/Projects/RN/RTNM/node_modules/react-native-reanimated/android/build/.transforms/54b5e85f2431345d2526206ae57dca6c/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /home/asim/.gradle/caches/transforms-3/77d2d26c497c75a3d070c48c8bcc3a11/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /home/asim/.gradle/caches/transforms-3/77d2d26c497c75a3d070c48c8bcc3a11/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/asim/.gradle/caches/transforms-3/ca02ecf7773da1c6683b26f497a853fb/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/asim/.gradle/caches/transforms-3/ca02ecf7773da1c6683b26f497a853fb/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /home/asim/.gradle/caches/transforms-3/871234b7f134ead91c33969cc918ea9b/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /home/asim/.gradle/caches/transforms-3/871234b7f134ead91c33969cc918ea9b/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /home/asim/.gradle/caches/transforms-3/a746a598190add4e26e20b50e6063e62/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /home/asim/.gradle/caches/transforms-3/a746a598190add4e26e20b50e6063e62/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /home/asim/.gradle/caches/transforms-3/bc937d3f8204920a9221ce9c64c4c331/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /home/asim/.gradle/caches/transforms-3/bc937d3f8204920a9221ce9c64c4c331/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /home/asim/.gradle/caches/transforms-3/4963af96010e68d731b683e0ea0081e5/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /home/asim/.gradle/caches/transforms-3/4963af96010e68d731b683e0ea0081e5/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /home/asim/.gradle/caches/transforms-3/8426af837eac3a36ff081b96fd29b654/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /home/asim/.gradle/caches/transforms-3/8426af837eac3a36ff081b96fd29b654/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /home/asim/.gradle/caches/transforms-3/40a49d80d81de112edd91da58481783f/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /home/asim/.gradle/caches/transforms-3/40a49d80d81de112edd91da58481783f/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /home/asim/.gradle/caches/transforms-3/7ecf3f232dc56fe1384940cef7e7936e/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /home/asim/.gradle/caches/transforms-3/7ecf3f232dc56fe1384940cef7e7936e/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /home/asim/.gradle/caches/transforms-3/1df9ad1387e8cec4ff4e69af007896d7/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /home/asim/.gradle/caches/transforms-3/1df9ad1387e8cec4ff4e69af007896d7/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /home/asim/.gradle/caches/transforms-3/8941cfe7e4022b40b72a8091ecf69933/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /home/asim/.gradle/caches/transforms-3/8941cfe7e4022b40b72a8091ecf69933/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/asim/.gradle/caches/transforms-3/07499b6d9286c38afba43f10d09fb530/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/asim/.gradle/caches/transforms-3/07499b6d9286c38afba43f10d09fb530/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/asim/.gradle/caches/transforms-3/054c5fdc6e2d58fc9ae97797a450883e/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/asim/.gradle/caches/transforms-3/054c5fdc6e2d58fc9ae97797a450883e/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /home/asim/.gradle/caches/transforms-3/d934a9f160130ae43e0a46a1b14855d4/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /home/asim/.gradle/caches/transforms-3/d934a9f160130ae43e0a46a1b14855d4/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/asim/.gradle/caches/transforms-3/2bd7af87b814d990bfa32caf0aee8b8b/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/asim/.gradle/caches/transforms-3/2bd7af87b814d990bfa32caf0aee8b8b/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.material:material:1.1.0] /home/asim/.gradle/caches/transforms-3/5062f4860f2607535a807f0d8b556178/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/asim/.gradle/caches/transforms-3/5062f4860f2607535a807f0d8b556178/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/asim/.gradle/caches/transforms-3/3137866ad43cfc3d891662c8269097cf/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/asim/.gradle/caches/transforms-3/3137866ad43cfc3d891662c8269097cf/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/asim/.gradle/caches/transforms-3/18fded6a177d71099ca1ba485ac10470/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/asim/.gradle/caches/transforms-3/18fded6a177d71099ca1ba485ac10470/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /home/asim/.gradle/caches/transforms-3/dfc77ad6f3ee9d7f9d8ea64132b0df23/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /home/asim/.gradle/caches/transforms-3/dfc77ad6f3ee9d7f9d8ea64132b0df23/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /home/asim/.gradle/caches/transforms-3/10939bcce6b0a4f0265288f7f3012081/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /home/asim/.gradle/caches/transforms-3/10939bcce6b0a4f0265288f7f3012081/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /home/asim/.gradle/caches/transforms-3/aeeaeaa350145a9791347c7e7a88605f/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /home/asim/.gradle/caches/transforms-3/aeeaeaa350145a9791347c7e7a88605f/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /home/asim/.gradle/caches/transforms-3/d87412d636d363a7de7f15ba4bafa8d2/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /home/asim/.gradle/caches/transforms-3/d87412d636d363a7de7f15ba4bafa8d2/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /home/asim/.gradle/caches/transforms-3/97e406dd4819087f70d01fc4f5b616ce/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /home/asim/.gradle/caches/transforms-3/97e406dd4819087f70d01fc4f5b616ce/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.52.1] /home/asim/.gradle/caches/transforms-3/6280de070808c68a59ad770a2a1417b6/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] /home/asim/.gradle/caches/transforms-3/6280de070808c68a59ad770a2a1417b6/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/asim/.gradle/caches/transforms-3/a32c1fc13a51d359772267462721ee0f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/asim/.gradle/caches/transforms-3/a32c1fc13a51d359772267462721ee0f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/asim/.gradle/caches/transforms-3/f33800bfec54cfaf20f6bf1645ebdb50/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/asim/.gradle/caches/transforms-3/f33800bfec54cfaf20f6bf1645ebdb50/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/asim/.gradle/caches/transforms-3/e6607ff9828f2f8a08f6e8f374e00102/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/asim/.gradle/caches/transforms-3/e6607ff9828f2f8a08f6e8f374e00102/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/asim/.gradle/caches/transforms-3/afb138624ad9b695d807153d9dfadea8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/asim/.gradle/caches/transforms-3/afb138624ad9b695d807153d9dfadea8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/asim/.gradle/caches/transforms-3/3490fb59ba9bf6da1169e6d6c0c84ca6/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/asim/.gradle/caches/transforms-3/3490fb59ba9bf6da1169e6d6c0c84ca6/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/asim/.gradle/caches/transforms-3/00b121a5f814e7040267f329826c39a9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/asim/.gradle/caches/transforms-3/00b121a5f814e7040267f329826c39a9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/asim/.gradle/caches/transforms-3/ce23548cc648acc680626e4d38b398c3/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/asim/.gradle/caches/transforms-3/ce23548cc648acc680626e4d38b398c3/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/asim/.gradle/caches/transforms-3/666eaae6acb53fde5a4c47415e5b51c8/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/asim/.gradle/caches/transforms-3/666eaae6acb53fde5a4c47415e5b51c8/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/asim/.gradle/caches/transforms-3/a58e9c7f53b5bc44eda7045309388a92/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/asim/.gradle/caches/transforms-3/a58e9c7f53b5bc44eda7045309388a92/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/asim/.gradle/caches/transforms-3/de4fb1e181045f108d4970721632cd73/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/asim/.gradle/caches/transforms-3/de4fb1e181045f108d4970721632cd73/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/asim/.gradle/caches/transforms-3/7c5d45066718b51403853444c94b3efd/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/asim/.gradle/caches/transforms-3/7c5d45066718b51403853444c94b3efd/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.play:integrity:1.1.0] /home/asim/.gradle/caches/transforms-3/1a0988c713759d16002ab5bf2f1a82f3/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /home/asim/.gradle/caches/transforms-3/1a0988c713759d16002ab5bf2f1a82f3/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/asim/.gradle/caches/transforms-3/00f223b27454529c9ccfef21b1ded96e/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/asim/.gradle/caches/transforms-3/00f223b27454529c9ccfef21b1ded96e/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/asim/.gradle/caches/transforms-3/7672504ec906d56e4c689bc3605f03fe/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/asim/.gradle/caches/transforms-3/7672504ec906d56e4c689bc3605f03fe/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/asim/.gradle/caches/transforms-3/a03fb428fc33afcffe627e6deaa2dcd2/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/asim/.gradle/caches/transforms-3/a03fb428fc33afcffe627e6deaa2dcd2/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/asim/.gradle/caches/transforms-3/87318c38e05402103def2e2529638420/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/asim/.gradle/caches/transforms-3/87318c38e05402103def2e2529638420/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/asim/.gradle/caches/transforms-3/11af21639d36eb6799ed8eae803a6502/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/asim/.gradle/caches/transforms-3/11af21639d36eb6799ed8eae803a6502/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/asim/.gradle/caches/transforms-3/7249062f93df45e5b41c20eb2e69ab4f/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/asim/.gradle/caches/transforms-3/7249062f93df45e5b41c20eb2e69ab4f/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/asim/.gradle/caches/transforms-3/1ad0bb256b92606a5adf0c74da1f859f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/asim/.gradle/caches/transforms-3/1ad0bb256b92606a5adf0c74da1f859f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/asim/.gradle/caches/transforms-3/124fd96c61075ad892416c3890849139/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/asim/.gradle/caches/transforms-3/124fd96c61075ad892416c3890849139/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/asim/.gradle/caches/transforms-3/8c1a0c3d5e826f888f96756922eac21e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/asim/.gradle/caches/transforms-3/8c1a0c3d5e826f888f96756922eac21e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/asim/.gradle/caches/transforms-3/af9d61ae13d8877fc7ef6cd45abe76b0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/asim/.gradle/caches/transforms-3/af9d61ae13d8877fc7ef6cd45abe76b0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/asim/.gradle/caches/transforms-3/64dd33318eddeee89173fe185b655967/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/asim/.gradle/caches/transforms-3/64dd33318eddeee89173fe185b655967/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/asim/.gradle/caches/transforms-3/3e64603ef1cb867ba3a01861cad187f1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/asim/.gradle/caches/transforms-3/3e64603ef1cb867ba3a01861cad187f1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/asim/.gradle/caches/transforms-3/32cf29000a5c7eaa845a147c45c455ae/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/asim/.gradle/caches/transforms-3/32cf29000a5c7eaa845a147c45c455ae/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/asim/.gradle/caches/transforms-3/8d6a7c1e4bffad4c354faa32fa9946ee/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/asim/.gradle/caches/transforms-3/8d6a7c1e4bffad4c354faa32fa9946ee/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/asim/.gradle/caches/transforms-3/b4c91a60ec042c9595ce703f3a3e23f4/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/asim/.gradle/caches/transforms-3/b4c91a60ec042c9595ce703f3a3e23f4/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/asim/.gradle/caches/transforms-3/2b3b33053e067dded22f3c61e3b2147e/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/asim/.gradle/caches/transforms-3/2b3b33053e067dded22f3c61e3b2147e/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/asim/.gradle/caches/transforms-3/ce532da4c2fbcf09ce631856c0599bdd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/asim/.gradle/caches/transforms-3/ce532da4c2fbcf09ce631856c0599bdd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/asim/.gradle/caches/transforms-3/6933939f0d226e757f12fd752ce6839d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/asim/.gradle/caches/transforms-3/6933939f0d226e757f12fd752ce6839d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/asim/.gradle/caches/transforms-3/9b846d337194ededc73cb59b66e34d91/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/asim/.gradle/caches/transforms-3/9b846d337194ededc73cb59b66e34d91/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/asim/.gradle/caches/transforms-3/a3e34088cfd6af51f143774a21abd48f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/asim/.gradle/caches/transforms-3/a3e34088cfd6af51f143774a21abd48f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/asim/.gradle/caches/transforms-3/f01b1dd545f1590cf395301e7800881f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/asim/.gradle/caches/transforms-3/f01b1dd545f1590cf395301e7800881f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/asim/.gradle/caches/transforms-3/e6d43ec0df1a2bf8f7cda0aa60361f2f/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/asim/.gradle/caches/transforms-3/e6d43ec0df1a2bf8f7cda0aa60361f2f/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/asim/.gradle/caches/transforms-3/abe15bb95e3e6756904ff9041b2055ee/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/asim/.gradle/caches/transforms-3/abe15bb95e3e6756904ff9041b2055ee/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/asim/.gradle/caches/transforms-3/9a4b6def60be59bd831ba5208e045fc1/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/asim/.gradle/caches/transforms-3/9a4b6def60be59bd831ba5208e045fc1/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/asim/.gradle/caches/transforms-3/3dcacd1cc0c4e618c73abd34825c9033/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/asim/.gradle/caches/transforms-3/3dcacd1cc0c4e618c73abd34825c9033/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/asim/.gradle/caches/transforms-3/fbb247b0fa851701e53c882ea86a047d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/asim/.gradle/caches/transforms-3/fbb247b0fa851701e53c882ea86a047d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/asim/.gradle/caches/transforms-3/41e9bfe7e7f25432c57692daf8491161/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/asim/.gradle/caches/transforms-3/41e9bfe7e7f25432c57692daf8491161/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/asim/.gradle/caches/transforms-3/c0530b6a978df42721fc36fa043e7cd3/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/asim/.gradle/caches/transforms-3/c0530b6a978df42721fc36fa043e7cd3/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/asim/.gradle/caches/transforms-3/1f20c199f33b07e3255e79462b34eecf/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/asim/.gradle/caches/transforms-3/1f20c199f33b07e3255e79462b34eecf/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/asim/.gradle/caches/transforms-3/424152f0b5f5c399ba1a3b32aa7291c1/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/asim/.gradle/caches/transforms-3/424152f0b5f5c399ba1a3b32aa7291c1/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/asim/.gradle/caches/transforms-3/bb4c3118ddd7c64a0627dd29d4ddd9a9/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/asim/.gradle/caches/transforms-3/bb4c3118ddd7c64a0627dd29d4ddd9a9/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/asim/.gradle/caches/transforms-3/b77aaf0ffc0c5570a91fcd85d52ae59b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/asim/.gradle/caches/transforms-3/b77aaf0ffc0c5570a91fcd85d52ae59b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/asim/.gradle/caches/transforms-3/d2e750b2ab93118ada46bda1f0a11844/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/asim/.gradle/caches/transforms-3/d2e750b2ab93118ada46bda1f0a11844/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/asim/.gradle/caches/transforms-3/8c44c7a38a02ee47ba3e9e72ae5fe55a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/asim/.gradle/caches/transforms-3/8c44c7a38a02ee47ba3e9e72ae5fe55a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/asim/.gradle/caches/transforms-3/50b04ef26dd0e579d1d48906930bec59/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/asim/.gradle/caches/transforms-3/50b04ef26dd0e579d1d48906930bec59/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/asim/.gradle/caches/transforms-3/d4c7b69a8f372b0f7d5760c69537d7a3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/asim/.gradle/caches/transforms-3/d4c7b69a8f372b0f7d5760c69537d7a3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:5:5-7:41
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:5:5-7:41
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/asim/.gradle/caches/transforms-3/cda654eb02b4ede5c58fceb7a9f19064/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/asim/.gradle/caches/transforms-3/cda654eb02b4ede5c58fceb7a9f19064/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/asim/.gradle/caches/transforms-3/fe5e4ed0a803a5102fbf20525c6b6e96/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/asim/.gradle/caches/transforms-3/fe5e4ed0a803a5102fbf20525c6b6e96/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/asim/.gradle/caches/transforms-3/4736e79db6250e239148918e41e8da56/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/asim/.gradle/caches/transforms-3/4736e79db6250e239148918e41e8da56/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asim/Projects/RN/RTNM/android/app/src/main/AndroidManifest.xml
+provider#io.invertase.notifee.NotifeeInitProvider
+ADDED from [:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:40
+	android:authorities
+		ADDED from [:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-73
+	android:exported
+		ADDED from [:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:notifee_react-native] /home/asim/Projects/RN/RTNM/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /home/asim/.gradle/caches/transforms-3/6280de070808c68a59ad770a2a1417b6/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /home/asim/.gradle/caches/transforms-3/6280de070808c68a59ad770a2a1417b6/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/asim/.gradle/caches/transforms-3/a32c1fc13a51d359772267462721ee0f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/asim/.gradle/caches/transforms-3/a32c1fc13a51d359772267462721ee0f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:10:5-79
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:react-native-firebase_auth] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
+receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
+	android:value
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-39:32
+	android:value
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-29
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-89
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+	android:resource
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+	android:value
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:50:9-56:19
+MERGED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:50:9-56:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] /home/asim/Projects/RN/RTNM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/asim/.gradle/caches/transforms-3/299cbdd45d5162b911640a6f94c78d58/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.7.0] /home/asim/.gradle/caches/transforms-3/3264657c80a0abc1149a2ff84ea826cd/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:23:22-74
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/asim/.gradle/caches/transforms-3/fdbabba6f89b8780271ca01193eb006f/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:29:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:30:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:42:9-49:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:45:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:44:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:43:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:53:13-55:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:55:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.2.1] /home/asim/.gradle/caches/transforms-3/c3fe6816013b7b7714759c387175c0b7/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:54:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /home/asim/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.4] /home/asim/.gradle/caches/transforms-3/5a948ecd147ebb1d1442cf0e4f3d632b/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:16:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /home/asim/.gradle/caches/transforms-3/ddb8629623b6bc5a5585baf2c51346c4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/asim/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/asim/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:14:5-77
+MERGED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/asim/.gradle/caches/transforms-3/f01b1dd545f1590cf395301e7800881f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/asim/.gradle/caches/transforms-3/f01b1dd545f1590cf395301e7800881f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/asim/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /home/asim/.gradle/caches/transforms-3/125dbf7d6d289ac7857797eb29c0d1ea/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/asim/.gradle/caches/transforms-3/5f6b968384cf0265758922c726eb45fc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /home/asim/.gradle/caches/transforms-3/fce9088d7e1317c9acfa0334e716d18c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/asim/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/asim/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/asim/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:16:5-79
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:13:5-79
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:17:5-19:38
+	android:maxSdkVersion
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:19:9-35
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:18:9-73
+service#app.notifee.core.ReceiverService
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:29:13-60
+activity#app.notifee.core.NotificationReceiverActivity
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:32:9-38:75
+	android:excludeFromRecents
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:34:13-46
+	android:noHistory
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:36:13-37
+	android:exported
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:35:13-36
+	android:theme
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:38:13-72
+	android:taskAffinity
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:33:13-73
+service#app.notifee.core.ForegroundService
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:41:9-43:40
+	android:exported
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:42:13-62
+receiver#app.notifee.core.RebootBroadcastReceiver
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:45:9-53:20
+	android:exported
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:46:13-68
+receiver#app.notifee.core.AlarmPermissionBroadcastReceiver
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:54:9-60:20
+	android:exported
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:56:13-36
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:55:13-77
+intent-filter#action:name:android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:57:13-59:29
+action#android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:58:17-107
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:58:25-104
+receiver#app.notifee.core.NotificationAlarmReceiver
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:61:9-69:20
+	android:exported
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:62:13-70
+receiver#app.notifee.core.BlockStateBroadcastReceiver
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:72:9-80:20
+	android:exported
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:73:13-72
+intent-filter#action:name:android.app.action.APP_BLOCK_STATE_CHANGED+action:name:android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED+action:name:android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:75:13-79:29
+action#android.app.action.APP_BLOCK_STATE_CHANGED
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:76:17-85
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:76:25-82
+action#android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:77:17-102
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:77:25-99
+action#android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED
+ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:78:17-108
+	android:name
+		ADDED from [app.notifee:core:202108261754] /home/asim/.gradle/caches/transforms-3/3e2ee0c62c56de67fa2c7195b69da9e8/transformed/jetified-core-202108261754/AndroidManifest.xml:78:25-105
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:14:22-65
+receiver#com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:17:9-92
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:17:19-89
+service#com.transistorsoft.tsbackgroundfetch.FetchJobService
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:19:9-22:72
+	android:exported
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:21:13-36
+	android:permission
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:22:13-69
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:20:13-80
+receiver#com.transistorsoft.tsbackgroundfetch.BootReceiver
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:24:9-31:20
+	android:exported
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:25:13-77
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:29:17-84
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.5.5] /home/asim/.gradle/caches/transforms-3/3eb4027ddccd26e4f91ffab57504c21f/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:29:25-81
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/asim/.gradle/caches/transforms-3/a9ea279f5df0e6e178b1008ae218c51d/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
